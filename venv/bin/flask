@@ -1,6 +1,0 @@
-#!/home/cselab1/1ms23cs074/k8s-lab/projet3/k8s-cicd-pipeline/venv/bin/python3
-import sys
-from flask.cli import main
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())
