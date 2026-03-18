@@ -33,6 +33,7 @@ jobs:
   deploy:
     needs: build-push
     runs-on: ubuntu-latest
+    continue-on-error: true 
     steps:
       - uses: actions/checkout@v4
       - uses: azure/setup-kubectl@v3
